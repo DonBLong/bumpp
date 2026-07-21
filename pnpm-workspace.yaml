@@ -1,7 +1,10 @@
 allowBuilds:
   esbuild: false
 
-shamefullyHoist: true
+minimumReleaseAgeExclude:
+  - verkit
+  - tsdown
+
 shellEmulator: true
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 604800 # 7 days
