@@ -2,7 +2,7 @@
   "name": "bumpp",
   "type": "module",
   "version": "11.1.0",
-  "packageManager": "pnpm@11.15.0",
+  "packageManager": "pnpm@11.15.1",
   "description": "Bump version, commit changes, tag, and push to Git",
   "authors": [
     {
@@ -66,7 +66,7 @@
     "tinyexec": "^1.2.4",
     "tinyglobby": "^0.2.17",
     "unconfig": "^7.5.0",
-    "verkit": "^0.1.0",
+    "verkit": "^0.1.2",
     "yaml": "^2.9.0"
   },
   "inlinedDependencies": {
